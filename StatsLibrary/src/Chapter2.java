@@ -109,6 +109,10 @@ public class Chapter2 {
 	 * @param int input
 	 * @return BigInteger
 	 */
+	/*
+	 *  code used from:
+	 *  https://javarevisited.blogspot.com/2015/08/how-to-calculate-large-factorials-using-BigInteger-Java-Example.html#axzz8HdeQmnni
+	 */
 	public BigInteger factorial(int input) {
 		
 		BigInteger result = new BigInteger("1");
